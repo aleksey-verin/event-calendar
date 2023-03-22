@@ -25,7 +25,7 @@ const Event = (props: Props) => {
   }
 
   return (
-    <Layout>
+    <Layout style={{ padding: '0 10px', backgroundColor: 'white' }}>
       <EventCalendar events={events} />
       <Row justify={'center'} style={{ backgroundColor: 'white' }}>
         <Button type="primary" onClick={() => setOpen(true)}>
